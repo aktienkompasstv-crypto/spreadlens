@@ -1,6 +1,8 @@
-# SpreadLens – Spread Research Tool
+# SpreadLens – Private Spread Research Tool
 
-Personal application for quantitative trading research, historical market data analysis,
+**Private use only.** SpreadLens is a private, single-user tool used exclusively by its owner on the owner's own trading accounts. It is not a commercial product, is not offered to anyone else and has no public sign-up or download.
+
+Private application for quantitative trading research, historical market data analysis,
 backtesting and integration with the cTrader Open API.
 
 SpreadLens monitors spreads, analyses market data and accesses the owner's account

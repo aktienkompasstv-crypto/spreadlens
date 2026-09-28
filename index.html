@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpreadLens – Spread Research Tool</title>
-    <meta name="description" content="Personal application for quantitative trading research: recording and comparing bid/ask spreads via the cTrader Open API.">
+    <title>SpreadLens – Private Spread Research Tool</title>
+    <meta name="description" content="Private, single-user application for quantitative trading research: recording and comparing bid/ask spreads via the cTrader Open API.">
     <style>
         * { box-sizing: border-box; }
         body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #0b1120; color: #ffffff; }
@@ -18,16 +18,32 @@
         footer { margin-top: 70px; padding-top: 25px; border-top: 1px solid #263550; color: #64748b; font-size: 14px; }
         a { color: #38bdf8; }
         @media (max-width: 600px) { h1 { font-size: 36px; } .container { padding: 40px 0; } .box { padding: 20px; } }
+        .private { margin-top: 35px; padding: 26px 30px; background: #2a1f06; border: 2px solid #f59e0b; border-radius: 14px; }
+        .private h2 { margin-top: 0; color: #fbbf24; }
+        .private p, .private li { color: #fde68a; }
+        .badge.priv { background: #3b2a06; color: #fbbf24; margin-left: 8px; }
     </style>
 </head>
 <body>
     <main class="container">
-        <span class="badge">Spread Research Tool</span>
+        <span class="badge">Spread Research Tool</span><span class="badge priv">Private use only</span>
         <h1>SpreadLens</h1>
         <p class="subtitle">
-            Personal application for quantitative trading research, historical market data analysis,
+            Private application for quantitative trading research, historical market data analysis,
             backtesting and integration with the cTrader Open API.
         </p>
+
+        <section class="private">
+            <h2>Private use only</h2>
+            <p><strong>SpreadLens is a private, single-user tool. It is used exclusively by its owner,
+                Martin Mainz, on the owner's own trading accounts.</strong></p>
+            <ul>
+                <li>It is not a commercial product and is not sold, offered or provided to anyone else.</li>
+                <li>There is no public sign-up, no download and no customer access.</li>
+                <li>Only the owner's own cTrader accounts are connected &ndash; never third-party accounts.</li>
+                <li>All data stays on the owner's computer and is used only for the owner's personal research.</li>
+            </ul>
+        </section>
 
         <section class="box">
             <h2>About SpreadLens</h2>
@@ -85,7 +101,7 @@
             </p>
         </section>
 
-        <footer>SpreadLens – personal research tool</footer>
+        <footer>SpreadLens – private tool for the owner's personal use only · not available to the public</footer>
     </main>
 </body>
 </html>
